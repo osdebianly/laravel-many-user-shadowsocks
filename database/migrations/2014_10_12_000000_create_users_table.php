@@ -23,10 +23,10 @@ class CreateUsersTable extends Migration
             $table->integer('port')->unique();
             $table->string('method', 64)->default('aes-128-cfb');
             $table->string('passwd'); //method password
-            $table->integer('t')->default(0);     //最后使用ss时间
-            $table->bigInteger('u')->default(0);
-            $table->bigInteger('d')->default(0);
-            $table->bigInteger('transfer_enable');
+            $table->integer('t')->default(0);     //传输流量
+            $table->bigInteger('u')->default(0);    //上传
+            $table->bigInteger('d')->default(0);    //下载
+            $table->bigInteger('transfer_enable');  //总流量
             $table->tinyInteger('switch')->default(1);
             $table->tinyInteger('enable')->default(1);
             $table->tinyInteger('type')->default(1);

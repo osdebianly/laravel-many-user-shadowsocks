@@ -80,14 +80,14 @@
                             </div>
 
 
-                            <div class="form-group">
-                                <select id="method" class="form-group">
-                                    <option value="" disabled selected>新加密方式</option>
-                                    <option value="rc4-md5">rc4-md5</option>
-                                    <option value="aes-256-cfb">aes-256-cfb</option>
-                                </select>
-                                <label>rc4-md5较快 aes-256-cfb较安全</label>
-                            </div>
+                            {{--<div class="form-group">--}}
+                                {{--<select id="method" class="form-group">--}}
+                                    {{--<option value="" disabled selected>新加密方式</option>--}}
+                                    {{--<option value="rc4-md5">rc4-md5</option>--}}
+                                    {{--<option value="aes-256-cfb">aes-256-cfb</option>--}}
+                                {{--</select>--}}
+                                {{--<label>rc4-md5较快 aes-256-cfb较安全</label>--}}
+                            {{--</div>--}}
                             <div class="form-group">
                                 <input type="text" id="port" name="port" placeholder="输入新的端口号,1024-65000，重复则随机生成"
                                        class="form-control">

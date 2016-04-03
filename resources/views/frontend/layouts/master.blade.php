@@ -36,7 +36,8 @@
 {!! Html::script('js/vendor/bootstrap/bootstrap.min.js') !!}
 
 @yield('before-scripts-end')
-{!! Html::script(elixir('js/frontend.js')) !!}
+{{--{!! Html::script(elixir('js/frontend.js')) !!}--}}
+{{Html::script(elixir('js/frontend.js'))}}
 @yield('after-scripts-end')
 
 {{--@include('includes.partials.ga')--}}

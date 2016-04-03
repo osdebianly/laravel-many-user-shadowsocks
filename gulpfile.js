@@ -42,7 +42,8 @@ elixir(function(mix) {
      .scripts([
         'plugin/sweetalert/sweetalert.min.js',
         'plugins.js',
-        'frontend/app.js'
+        'frontend/app.js',
+         '../bower/Chart.js/Chart.js'
      ], 'public/js/frontend.js')
 
      /**

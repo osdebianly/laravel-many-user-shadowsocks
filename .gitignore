@@ -1,8 +1,11 @@
 /vendor
 /node_modules
 Homestead.yaml
+/public/build
 Homestead.json
 .env
+/resources/assets/bower
+
 
 /public/css/frontend.css
 /public/css/frontend.css.map
